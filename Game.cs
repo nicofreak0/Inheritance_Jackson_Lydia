@@ -24,7 +24,7 @@ namespace Inheritance_Jackson_Lydia
             Console.WriteLine($"{Title} is Starting.");
         }
 
-        public abstract string Describe();
+        public override string Describe();
 
     }
 }
